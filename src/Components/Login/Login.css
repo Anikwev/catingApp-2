@@ -1,0 +1,63 @@
+body{
+    background: bisque;
+}
+.loginHead{
+    font-size: 35px;
+    font-weight: 700;
+    color: #263238;
+}
+.main_form label{
+    font-size: 16px;
+    font-weight: 400;
+    @apply font-poppins  ;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.loginHead{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+}
+.main_form input{
+    width: 400px;
+    height: 50px;
+    border: 2px solid #038C5A ;
+    border-radius: 5px;
+    transition: all linear .3s;
+    padding-left: 20px;
+}
+.main_form .error{
+    font-size: 40px ;
+    font-weight: 400;
+    color: red;
+}
+.loginButton{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#038C5A ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    @apply font-poppins ;
+    color: #fff;
+    border-radius: 10px;
+}
+.loginButton:active{
+    transform: scale(1.1);
+}
+.passDiv{
+    position: relative;
+}
+.eyeIcon{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
